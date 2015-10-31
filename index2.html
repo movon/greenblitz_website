@@ -427,7 +427,11 @@
 <section id="gallery">
     <div class="container">
         <div class="row">
-            <div class="carousel slide col-lg-8 col-lg-offset-2" data-ride="carousel" id="myCarousel">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Gallery</h2>
+                <hr class="primary">
+            </div>
+            <div class="carousel slide col-lg-12" data-ride="carousel" id="myCarousel">
                 <ol class="carousel-indicators" id="gallery_mini">
                 </ol>
                 <div class="carousel-inner" id="images">
@@ -452,7 +456,7 @@
         li.setAttribute("data-slide-to",String(index));
         ol.appendChild(li);
     }
-    ol.firstElementChild["class"] = "active";
+    ol.firstElementChild.setAttribute("class","active");
 
     var carousel_inner = document.getElementById("images");
     for (var index = 1;index <= 7;index++) {
