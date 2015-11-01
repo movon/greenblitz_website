@@ -317,7 +317,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #222;
     opacity: 0;
-    background: rgba(69,139,00,.9);
+    background: rgba(211,211,211,0.9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
