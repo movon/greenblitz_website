@@ -582,3 +582,20 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+#toTop {
+    background: #000000;
+    align-content: center;
+    position: fixed;
+    right: 10%;
+    top: 90%;
+    margin-top: -2.5em;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+}
